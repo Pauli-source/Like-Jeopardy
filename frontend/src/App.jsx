@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Editor from './pages/Editor';
-import Questions from './pages/Questions';
+import Home from './pages/home';
+import Editor from './pages/editor';
+import Questions from './pages/questions';
 import SelectBoard from './pages/SelectBoard';
 import GameSession from './pages/GameSession';
-import Rules from './pages/Rules';
+import Rules from './pages/rules';
 
 export default function App() {
   return (
