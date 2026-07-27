@@ -50,7 +50,7 @@ export default function AuthModal({ isOpen, onClose, authReason = '', initialMod
         };
 
     try {
-      const response = await ffetch(`${API_BASE_URL}${endpoint}`, {
+      const response = await fetch(`${API_BASE_URL}${endpoint}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
